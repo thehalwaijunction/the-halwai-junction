@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Halwai Junction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Halwai Junction</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Delicious Flavors, Unforgettable Moments</h2>
+        <button onclick="location.href='#menu'">View Menu</button>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Experience the finest dishes crafted with love and passion.</p>
+    </section>
+    
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <h3>Indian Main Course</h3>
+        <ul>
+            <li>Paneer Butter Masala - ₹180 <br><img src="paneer_butter_masala.jpg" alt="Paneer Butter Masala"></li>
+            <li>Kadai Paneer - ₹190 <br><img src="kadai_paneer.jpg" alt="Kadai Paneer"></li>
+            <li>Chicken Curry - ₹220 <br><img src="chicken_curry.jpg" alt="Chicken Curry"></li>
+            <li>Mutton Rogan Josh - ₹320 <br><img src="mutton_rogan_josh.jpg" alt="Mutton Rogan Josh"></li>
+            <li>Dal Tadka - ₹120 <br><img src="dal_tadka.jpg" alt="Dal Tadka"></li>
+        </ul>
+        
+        <h3>Tandoor & Grilled Items</h3>
+        <ul>
+            <li>Chicken Tandoori (Full/Half) - ₹400/₹220</li>
+            <li>Paneer Tikka - ₹180</li>
+            <li>Seekh Kebab - ₹280</li>
+        </ul>
+        
+        <h3>Chinese & Fast Food</h3>
+        <ul>
+            <li>Veg Hakka Noodles - ₹120</li>
+            <li>Chicken Hakka Noodles - ₹160</li>
+            <li>Chicken Manchurian - ₹220</li>
+            <li>Veg Fried Rice - ₹120</li>
+            <li>Chicken Fried Rice - ₹160</li>
+        </ul>
+        
+        <h3>Beverages & Desserts</h3>
+        <ul>
+            <li>Cold Coffee - ₹90</li>
+            <li>Lassi - ₹70</li>
+            <li>Gulab Jamun - ₹50</li>
+            <li>Ice Cream - ₹60</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore our delightful ambiance and mouth-watering dishes.</p>
+        <img src="dish1.jpg" alt="Delicious Dish 1">
+        <img src="dish2.jpg" alt="Delicious Dish 2">
+        <img src="restaurant-interior.jpg" alt="Restaurant Interior">
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Mission Chowk, Godda, Jharkhand</p>
+        <p>Phone: +91 8434044429</p>
+        <p>Email: bhartirishav2@gmail.com</p>
+        <p>Follow us on:
+            <a href="https://instagram.com/thehalwaijunction" target="_blank">Instagram</a> |
+            <a href="https://facebook.com/thehalwaijunction" target="_blank">Facebook</a> |
+            <a href="https://youtube.com/thehalwaijunction" target="_blank">YouTube</a>
+        </p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 The Halwai Junction. All rights reserved.</p>
+    </footer>
+</body>
+</html>
